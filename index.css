@@ -1,0 +1,137 @@
+body {
+    color: #f1f1f1;
+    text-align: center;
+    background-image: url('v915-wit-001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: -1;
+}
+
+header {
+    background-color: #333; 
+    padding: 8px 0;
+}
+
+header h1 {
+    color: #ffffff; 
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Arial', sans-serif; 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #ff6347; 
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffd700; 
+}
+
+main {
+    text-align: center;
+    padding: 40px;
+}
+
+main img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #fff; 
+}
+
+#about {
+    color: #eaeaea; 
+    padding: 0 15%;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#Skills {
+    margin: 120px;
+    color: #181717;
+}
+
+#Skills .skill {
+    color: #50b5db; 
+    margin-bottom: 25px;
+}
+
+#Skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom:100px;        
+}
+
+#Skills ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Skills ul li progress {
+    margin-left: 10px;
+    width: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: #f1f1f1; 
+    padding: 20px 0;
+}
+
+footer h1 {
+    margin:20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer ul li a {
+    color: #ff6347; 
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #ffd700; 
+}
